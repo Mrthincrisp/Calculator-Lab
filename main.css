@@ -1,0 +1,52 @@
+.grid-container {
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 1px;
+  background-color: #000000;
+  padding: 0px;
+}
+
+.btn {
+  flex-grow: 1;
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+ }
+ .nonFunc:hover{
+  background:#d4d4d4;  
+ }
+ .nonFunc:active{
+  background: #bbbcbe;
+ }
+
+.mathFunc {
+  background-color: rgb(236, 111, 22);
+  color: rgb(255, 255, 255);
+}
+.mathFunc:hover{
+  background:#dfb07e
+}
+.mathFunc:active{
+  background-color: #dd8d37;
+}
+
+.item1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  grid-column: span 4;
+  margin: 7px;
+}
+
+.clear {
+  grid-column: span 2;
+}
+
+.zero {
+  grid-column: span 3;
+}
